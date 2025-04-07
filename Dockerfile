@@ -1,5 +1,5 @@
 # Use Tomcat 11, which supports Servlets 5
-FROM tomcat:9.0.27-jdk1.8
+FROM tomcat:9.0.27-jdk8
 
 # This limits the amount of memory used
 ENV JAVA_OPTS="-Xmx300m"
